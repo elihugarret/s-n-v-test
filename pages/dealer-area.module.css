@@ -1,0 +1,7 @@
+.dealer-pool {
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    align-content: space-evenly;
+    gap: 1%;
+    margin-inline: 5%;
+}

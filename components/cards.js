@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import { AppContext } from '../../context/state';
+import { AppContext } from '../context/state';
 
 const shuffle = array => {
   for (let i = array.length - 1; i > 0; i--) {

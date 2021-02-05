@@ -1,6 +1,6 @@
-import styles from '../player-area.module.css';
-import { useEffect, useContext, useState } from 'react';
-import { AppContext } from '../../context/state';
+import styles from '../pages/player-area.module.css';
+import { AppContext } from '../context/state';
+import { useContext } from 'react';
 
 export default function PlayerArea() {
     const { playerCards } = useContext(AppContext);

@@ -1,4 +1,4 @@
-import styles from '../dealer-area.module.css';
+import styles from '../pages/dealer-area.module.css';
 
 export default function DealerArea({ children }) {
   return (
